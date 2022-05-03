@@ -1,0 +1,25 @@
+  #Application properties
+  server:
+    port: 8081
+
+  #AWS properties
+  cloud:
+    aws:
+      region:
+        static: us-east-1
+      stack:
+        auto: false
+      credentials:
+        accessKey: AKIA3ZMJRV55UPAWA54B
+        secretKey: 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
+
+  application:
+    bucket:
+      name: sandeshbucket
+
+  logging:
+    level:
+      com:
+        amazonaws:
+          util:
+            EC2MetadataUtils: error
