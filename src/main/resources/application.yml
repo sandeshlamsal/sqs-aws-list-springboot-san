@@ -10,8 +10,8 @@
       stack:
         auto: false
       credentials:
-        accessKey: AKIA3ZMJRV55UPAWA54B
-        secretKey: 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
+        accessKey: ****
+        secretKey: *******
 
   application:
     bucket:
